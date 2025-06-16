@@ -12,19 +12,23 @@ h1 {
   padding: 20px;
   display: flex;
   justify-content: space-around;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .book {
   width: 200px;
   padding: 10px;
-  border: 1px solid #ddd;
   text-align: center;
 }
 
 .book img {
   width: 100%;
   height: auto;
+}
+
+.book h2 {
+  font-size: 18px;
+  margin: 10px 0 5px 0;
 }
 
 .author {
@@ -36,5 +40,5 @@ h1 {
   color: white;
   border-radius: 5px;
   padding: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
